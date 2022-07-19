@@ -26,16 +26,16 @@ iframe {
 }*/
 
 .text {
-	padding: 20px;
+	/*padding: 20px;
 	color: black;
 	width: 100%;
-	height: 100%;
-	background 	: none;
-	font-size: 30px;
+	height: 100%;*/
+	background: white;
+	font-size: 15px;
 	font-family: BetterSaturday;
 	/*text-align: center;*/
 	position: absolute;
-	top: 40%;
+	top: 70%;
 	left: 0%;
 }
 
