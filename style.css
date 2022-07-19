@@ -9,13 +9,13 @@
   src: url(BetterSaturday.otf);
 }
 
-/*iframe {
+iframe {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-}*/
+}
 
-.hero {
+/*.hero {
 	min-height: 100vh;
 	width: 100%;
 	background-image: url(bg.jpg);
@@ -23,7 +23,7 @@
 	background-repeat: no-repeat;
 	background-size: 130%;
 	color: #fff;
-}
+}*/
 
 .text {
 	padding: 20px;
@@ -33,7 +33,7 @@
 	background 	: none;
 	font-size: 30px;
 	font-family: BetterSaturday;
-	/*text-align: center;*/
+	text-align: center;
 	position: absolute;
 	top: 40%;
 	left: 0%;
