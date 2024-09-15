@@ -1,6 +1,10 @@
 @font-face {
 	font-family: BetterSaturday;
-	src: url(BetterSaturday.otf);
+	src: url(font/BetterSaturday.otf);
+}
+@font-face {
+	font-family: DFVNVivaldi;
+	src: url(font/DFVNVivaldi.otf);
 }
 
 body {
@@ -12,7 +16,7 @@ body {
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	padding: 10px;
+	padding: 16px;
 	/* display: flex; */
 	/* align-items: center; */
 	/* justify-content: center; */
@@ -20,24 +24,29 @@ body {
 
 .hero::before {
 	content: "";
-	background-image: url(bg.jpg);
+	background-image: url(img/2.jpg);
 	background-size: cover;
 	position: absolute;
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
-	opacity: 0.4;
+	/* opacity: 0.4; */
+}
+
+#myContent {
+	display: none;
 }
 
 .question {
-	font-family: BetterSaturday;
-	font-size: 1.5rem;
+	font-family: DFVNVivaldi;
+	font-size: 1.9rem;
 	text-decoration: none;
 	display: block;
 	position: relative;
-	/* color: red; */
+	color: white;
+	opacity: 0.8;
 	/* text-align: center; */
 	line-height: 1.6;
-	border-bottom: 1px solid grey;
+	/* border-bottom: 1px solid grey; */
 }
