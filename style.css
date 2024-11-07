@@ -24,7 +24,7 @@ body {
 
 .hero::before {
 	content: "";
-	background-image: url(img/2.jpg);
+	background-image: url(img/3.jpg);
 	background-size: cover;
 	position: absolute;
 	top: 0px;
